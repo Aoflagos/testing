@@ -1,0 +1,134 @@
+body {
+    /* background-color: green; */
+}
+
+ul li {
+    list-style: none;
+}
+
+header {
+    background-image: url(img/simple-house-01.jpg);
+    /* position: fixed; */
+}
+
+nav {
+    height: 70vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+nav .topBar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 55vh;
+}
+
+nav .leftBar {
+    display: flex;
+    margin-left: 70px;
+}
+
+nav .topBar .leftBar .title {
+    line-height: 8px;
+}
+
+nav .rightBar ul {
+    display: inline-flex;
+    margin-right: 70px;
+}
+
+nav .rightBar ul li {
+    margin-left: 50px;
+}
+
+
+/* BODY */
+
+.mainBody {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.mainBody .btn {
+    display: inline-flex;
+}
+
+.mainBody .btn h3 {
+    margin-left: 40px;
+}
+
+.btn h3 {
+    border: solid limegreen 1px;
+    padding: 7px 25px;
+    color: limegreen;
+}
+
+.btn h3:hover {
+    background-color: limegreen;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.menu .menuFood {
+    display: inline-flex;
+}
+
+.menu {
+    margin: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.menu h3 {
+    color: steelblue;
+}
+
+.menu h2 {
+    color: mediumseagreen;
+}
+
+.menu p {
+    color: slategray;
+}
+
+.menu .menuFood .img1 {
+    margin-right: 30px;
+}
+
+.menu .menuFood .img2 {
+    margin-right: 30px;
+}
+
+.menu .menuFood .img3 {
+    margin-right: 30px;
+}
+
+.menuFood2 {
+    margin-top: 45px;
+    display: inline-flex;
+}
+
+.menuFood2 .img5 {
+    margin-right: 30px;
+}
+
+
+/* bottom */
+
+.bottom {
+    display: inline-flex;
+    margin: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bottom img {
+    margin-right: 30px;
+}
+
+.bottom h3 {
+    color: steelblue;
+}
+
+.bottom p {
+    color: slategray;
+}
